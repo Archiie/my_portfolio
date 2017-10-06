@@ -1,0 +1,213 @@
+.affix {
+	top: 0px;
+	margin: 0px 20px;
+	width:1100px;
+}
+@media (max-width: 1199px)
+{
+.affix {
+    width: 900px;
+}
+}
+@media (max-width: 991px)
+{
+.affix {
+    width: 680px;
+}
+}
+@media (max-width: 768px)
+{
+.affix {
+	left:15px;
+	right:15px;
+	width:auto;
+}
+}
+
+.affix + .container {
+	padding: 0px;
+}
+
+/* -------------------------------------------------Above code suggested by Hiren Vaghasiya-------------------------------------------------------------------------- */
+
+h1 {
+	text-shadow: 4px 5px 3px #A866B2; /*#DCD4F9, #F74554 moves to the right, moves down, thickness of text's shadow*/
+}
+.main-container {
+	margin: 40px 0px;
+	border-radius: 10px;
+	background-color: #4B004C ; /*#800000, #4B004C, #E6E6E6*/
+}
+
+#footer {
+	background-color: #E6E6E6;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	border-radius: 10px;
+	display: flex;
+    flex-flow: row wrap;
+}
+#head_tag, #footer_tag {
+	font-family: Tangerine, Monospace;
+}
+#head_tag {
+	font-size: 100px;
+	height: 300px;
+	color: white;
+}
+#footer_tag {
+	font-size: 50px;
+	color: #6E326F
+}
+
+.image {
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 1px;
+	border-color: #000;
+	height: 230px;
+	width: 240px;
+}
+.img-responsive {
+	margin: 20px auto;
+}
+
+
+.navbar {
+	margin: 0px 20px;
+	z-index: 1;
+}
+
+.info {
+	font-family: Monospace;
+	font-size: 20px;
+	background-color: #E6E6E6; /*#4B004C, #E6E6E6*/
+	border-radius: 10px;
+	margin: 20px 20px;
+	padding: 20px 20px;
+}
+.boxSpacing {
+	margin: 20px auto;
+}
+.pics {
+	height: 300px;
+	width: 300px;
+}
+
+#aboutMe, #portfolio, #contactMe {
+	font-family: Lobster, Monospace;
+	font-size: 35px;
+	color: #6E326F;
+}
+
+
+.button {
+	display: inline-block;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 48px;
+}
+.centeringIcon {
+	text-align: center;
+	color: white;
+}
+
+/* -----------------------------------------Social Media icons styling----------------------------------------- */
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 20px;
+	height: 4.6rem;
+	line-height: 4.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 4.6rem;
+}
+.fa {
+	margin: 0px 0px;
+	font-size: 28px;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 4.6rem;
+	height: 4.6rem;
+	border-radius: 4.6rem;
+	margin: -2.3rem;
+}
+
+.linkedin span {
+	background-color: #0077B5;
+}
+.github span {
+	background-color: #333;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.bitbucket span {
+	background-color: #205081;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 4.6rem;
+	left: 0;
+	line-height: 4.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 4.6rem;
+	z-index: 1;
+}
+
+.icon-button .fa-linkedin {
+	color: #0077B5;
+}
+.icon-button .fa-github {
+	color: #333;
+}
+.icon-button .fa-twitter {
+	color: #4099ff;
+}
+.icon-button .fa-bitbucket {
+	color: #205081;
+}
+.icon-button:hover .fa-linkedin,
+.icon-button:hover .fa-github,
+.icon-button:hover .fa-twitter,
+.icon-button:hover .fa-bitbucket {
+	color: white;
+}
